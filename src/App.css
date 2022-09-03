@@ -9,12 +9,19 @@ body {
 }
 
 .box {
+  font-size: 250%;
   width: auto;
   height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color 0.05s;
 }
+
+.box:active {
+  background-color:hwb(45deg 3% 0%);
+}
+
 .icon {
   font-size: 35px;
   color: #ffffff;
